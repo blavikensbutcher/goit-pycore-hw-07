@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-pycore-hw-07"
+version = "0.1.0"
+description = ""
+authors = ["blavikensbutcher <v.pidnebesnyi@omisoft.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+colorama = "^0.4.6"
+black = "^25.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
